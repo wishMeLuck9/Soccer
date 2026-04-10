@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 173632802}
   - component: {fileID: 173632801}
   - component: {fileID: 173632805}
+  - component: {fileID: 173632806}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -259,6 +260,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &173632806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173632800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08faf920ffcda9f41858eb5c50beaa65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  speed: 1.73
 --- !u!1001 &245963551
 PrefabInstance:
   m_ObjectHideFlags: 0
