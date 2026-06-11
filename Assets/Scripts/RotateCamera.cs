@@ -16,6 +16,6 @@ public class RotateCamera : MonoBehaviour
     {
         float horizontalInput = Input.GetAxis("Horizontal"); // Get horizontal input (A/D or Left/Right arrow keys)
         // Rotate the camera around the Y-axis
-        transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
+        transform.Rotate(Vector3.up, rotationSpeed * horizontalInput * Time.deltaTime);
     }
 }
